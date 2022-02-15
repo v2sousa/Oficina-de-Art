@@ -16,7 +16,65 @@
 </head>
 
 <body>
-      <h1> Até agora tudo funcionando graças a Deus! </h1>
-      <img src="imagens/art.1.jfif" alt="">  
+    <!--HEADER-->
+      <div class="container-fluid"> <!--Responsavel pelo header--> 
+        <header class="row" id="header"> <!--tem o mesmo efeito de uma div-->
+            <div id="logo-container"> <!--Local do Logo-->
+                <img src="imagens/pena.webp" alt="Art" id="logo"> <!--Logo-->
+                <h1> Oficina de Arte </h1> <!--Titulo da página-->
+            </div>
+            <p> Exibição de arte urbana </p>
+        </header>
+        <nav id="navbar" class="container"> <!--Navegação-->
+            <div class="row justify-content-center"> <!--centraliza texto--> 
+                <a href="#"> Home </a>
+                <a href="#"> Projetos </a>
+                <a href="#"> Artistas </a>
+                <a href="#"> Contato </a>
+            </div>
+        </nav>
+      </div>
+    <!-- main image -->
+    <div class="container" id="main-image-container">
+        <div class="main-image center-image"> <!-- Imagens - Centralizadas -->
+            <div class="main-image-info">
+                <h2> Arte no muro de Davi </h2>
+                <p class="secundary-color"> Realizada em 20/05/2021 </p>
+                <a href="#" class="btn"> Detalhes </a>
+            </div>
+        </div>
+    </div>
+    <!-- GALLERY -->
+    <div class="container" id="gallery-container">
+        <div class="col-12">
+            <h1> Artes em Destaque </h1>
+        </div>
+        <div class="row gx-5">
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img2"></div>
+                <h3> Obra de Artur </h3>
+                <p class="secundary-color"> Realizada em: 26/01/2018 </p>
+                <a href="#" class="btn"> Detalhes </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img3"></div>
+                <h3> Obra de Paulo </h3>
+                <p class="secundary-color"> Realizada em: 26/01/2019 </p>
+                <a href="#" class="btn"> Detalhes </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img4"></div>
+                <h3> Obra de Thiago </h3>
+                <p class="secundary-color"> Realizada em: 26/01/2020 </p>
+                <a href="#" class="btn"> Detalhes </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="small-image-container center-image" id="img5"></div>
+                <h3> Espaço reservado para a sua obra </h3>
+                <p class="secundary-color"> Realizada em:  </p>
+                <a href="#" class="btn"> Detalhes </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
