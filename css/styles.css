@@ -19,6 +19,7 @@ a, i { /* Ancoras e icones */
     color: #fff; /* Cor do texto */
     padding: 7px 18px; /* Espaçamento interno entre o texto e as bordas btn */
     border-radius: 0; /* Tira a borda arredondada original do bootstrap */
+    border: 1px solid #ccc;
 }
 .btn:hover { /* Cria uma animação no btn, mudando de cor */
     background-color: #555; /* Cor do hover */
@@ -66,4 +67,53 @@ a, i { /* Ancoras e icones */
     position: absolute; /*Posição precisa ser absoluta, p/ fixar sobre banner*/
     left: 25px;
     bottom: 25px;
+}
+/*GALLERY*/
+#img2 {
+    background-image: url(../imagens/art.2.jfif);
+}
+#img3 {
+    background-image: url(../imagens/art.3.jfif);
+}
+#img4 {
+    background-image: url(../imagens/art.4.jfif);
+}
+#img5 {
+    background-image: url(); /* ADICIONAR IMAGEM AQUI */ 
+    border: 1px solid gray; /*DEVE SER RETIRADO QUANDO TIVER IMAGEM*/
+}
+#gallery-container h1 {
+    text-align: center;
+}
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12 {
+    margin-bottom: 50px;
+}
+.small-image-container {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+footer i {
+    font-size: 20px;
+}
+#social-icons-container {
+    padding: 20px;
+}
+#social-icons-container div {
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    margin: 20px;
+}
+a:hover i {
+    color: #c1b696;
 }
